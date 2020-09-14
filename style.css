@@ -85,6 +85,9 @@ Header */
   transition: all 0.2s linear;
   margin-top: 0.3rem;
   margin-right: 1.5rem;
+
+  margin-bottom: 0.3rem;
+  align-items: center;
 }
 .download-button:hover {
   border: 1px solid black;
@@ -149,9 +152,11 @@ Header */
 }
 .cta-buttons {
   display: flex;
+  align-items: center;
 }
 .cta-button {
   margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
   margin-right: 1.5rem;
 }
 
