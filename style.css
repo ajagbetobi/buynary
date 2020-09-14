@@ -72,6 +72,10 @@ Header */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.buttons {
+  display: flex;
+}
+
 .download-button {
   background: var(--gradient);
   -webkit-background-clip: text;
@@ -80,6 +84,7 @@ Header */
   box-sizing: border-box;
   transition: all 0.2s linear;
   margin-top: 0.3rem;
+  margin-right: 1.5rem;
 }
 .download-button:hover {
   border: 1px solid black;
@@ -137,8 +142,17 @@ Header */
   font-weight: 500;
 }
 
+/* CTA */
+
 #cta {
   margin: 4rem auto;
+}
+.cta-buttons {
+  display: flex;
+}
+.cta-button {
+  margin-top: 0.3rem;
+  margin-right: 1.5rem;
 }
 
 /* Footer  */
